@@ -9595,10 +9595,10 @@ var ColorView = function () {
 
                     // FIXME: Exception handling when the highlight does not turn into color due to the scss function name
                     // LINK : https://github.com/ajaxorg/ace/blob/cbcb78c3a7c5e642d615a9f5665a44dbb94d3e92/lib/ace/mode/scss_highlight_rules.js#L43-L48
-                    rules[stateName].unshift({
-                        token: "color",
-                        regex: "blue|green|red"
-                    });
+                    //rules[stateName].unshift({
+                    //    token: "color",
+                    //    regex: "blue|green|red"
+                    //});
                 }
             }
             // force recreation of tokenizer
